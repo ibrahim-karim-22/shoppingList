@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
+    <link rel="stylesheet" type="text/css" href="" />
+    <title>Shopping List App</title>
+    <style>
+        ul {
+            list-style-type: "\2610 ";
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Shopping List</h1>
+    <form id="myForm">
+        <label for="item">Add an item:</label>
+        <input id="item" type="text" name="item">
+        <button>Add</button>
+    </form>
+    <ul id="shoppingList">
+        <!-- list items will go into this ul via DOM manipulation -->
+    </ul>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
