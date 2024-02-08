@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
-    <link rel="stylesheet" type="text/css" href="" />
+    <!--<link rel="stylesheet" type="text/css" href="" />-->
     <title>Shopping List App</title>
     <style>
         ul {
@@ -22,12 +22,13 @@
     <h1>My Shopping List</h1>
     <form id="myForm">
         <label for="item">Add an item:</label>
-        <input id="item" type="text" name="item">
-        <button>Add</button>
+        <input id="item" type="text" name="item" class="text-bg-success">
+        <button class="btn btn-danger addBtn">Add</button>
     </form>
     <ul id="shoppingList">
         <!-- list items will go into this ul via DOM manipulation -->
     </ul>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="/js/scripts.js"></script>
 </body>
 </html>

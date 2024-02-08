@@ -2,7 +2,7 @@
   "name": "shoppinglist",
   "version": "1.0.0",
   "description": "shopping list with JavaScript",
-  "source": "shoppinglist.html",
+  "source": "shopping-list.html",
   "scripts": {
     "start": "parcel --open",
     "build": "parcel build"
