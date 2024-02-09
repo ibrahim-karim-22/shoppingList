@@ -1,5 +1,5 @@
 {
-  "name": "shoppinglist",
+  "name": "shoppinglist22",
   "version": "1.0.0",
   "description": "challenge1 week 4",
   "source": "index.html",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/ibrahim-karim-22/shoppingList.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ibrahim Karim",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ibrahim-karim-22/shoppingList/issues"

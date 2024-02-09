@@ -1,5 +1,5 @@
-let adds = document.querySelector(".addBtn"); //using event listener instead of onclick
-adds.addEventListener("click", getItem);
+const kart = document.querySelector(".addBtn"); //using event listener instead of onclick
+kart.addEventListener("click", getItem);
 //we have ul element but we need to create some <li> elements via DOM.
 //global variable that points to the node containing the <ul> element that will hold
 //our list items
