@@ -102,7 +102,7 @@ function removeItem(event) {
     //use indexOf to find the index item you want to remove 
         let index = listArr.indexOf(item);
         if (index === -1) {
-        throw new Error ('Item not found in the list ')
+        throw new Error ('Item not found in the list ');
     }
     //first parameter is the starting index of changes (where you found your item)
     //second parameter is number of the elements to remove from that index forward in this case we want to remove just one item.
@@ -112,13 +112,6 @@ function removeItem(event) {
         removeList();
         makeList();
     } catch (error) {
-        console.error(error);
-
-        
+        console.error(error);        
     } 
 }
-
-
-
-
-

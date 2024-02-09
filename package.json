@@ -1,14 +1,14 @@
 {
-  "name": "shoppinglist",
+  "name": "shoppinglist22",
   "version": "1.0.0",
   "description": "shopping list with JavaScript",
-  "source": "shopping-list.html",
+  "source": "index.html",
   "scripts": {
     "start": "parcel --open",
     "build": "parcel build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ibrahim Karim",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.11.0"
