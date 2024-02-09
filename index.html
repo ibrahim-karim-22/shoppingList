@@ -3,40 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
-
+    <link rel="stylesheet" type="text/css" href="css\look.css" />
+    
     <title>Shopping List App</title>
-    <style>
-        ul {
-            list-style-type: "\2610 ";
-            cursor: pointer;
-        }
-    </style>
 </head>
 <body class="backimage">
     <div class="myShoppinglist mt-3">
-    <h1 align="center"><i class=" fa-solid fa-shopping-cart text-light mb-3"></i> 
-        Shopping List <i class=" fa-solid fa-shopping-cart text-light mb-3"></i></h1>
-    </div>
-    <p align="center" class="bg-danger text-warning">Click on items added to remove from list. Input cannot be empty.</p>
-    <form align="center" id="myForm">
-        <label class="text-danger labeltext" for="item">Add an item:</label>
-        <input id="item" type="text" name="item" class="text-bg-success">
-        <button class="btn btn-danger addBtn">Add</button>
-        <button class="btn btn-danger" id="printButton">Print Preview</button>
-        <div class="dispErr"></div>
-    </form>
-    <ul align="center" id="shoppingList">
-        <!-- list items will go into this ul via DOM manipulation -->
-    </ul>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="/js/index.js"></script>
+        <h1><i class=" fa-solid fa-shopping-cart text-light mb-3"></i> 
+            Shopping List <i class=" fa-solid fa-shopping-cart text-light mb-3"></i></h1>
+        </div>
+        <p class="bg-danger text-warning">Click on items added to remove from list. Input cannot be empty.</p>
+        <form id="myForm">
+            <label class="text-danger labeltext" for="item">Add an item:</label>
+            <input id="item" type="text" name="item" class="text-bg-success">
+            <button class="btn btn-danger addBtn">Add</button>
+            <button class="btn btn-danger" id="printButton">Print Preview</button>
+            <div class="dispErr"></div>
+        </form>
+        <ul id="shoppingList">
+            <!-- list items will go into this ul via DOM manipulation -->
+        </ul>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <script src="js\shopper.js"></script>
 </body>
 </html>
