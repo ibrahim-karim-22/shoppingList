@@ -4,8 +4,19 @@ adds.addEventListener('click', getItem);
 //global variable that points to the node containing the <ul> element that will hold
 //our list items
 const shoppingList = document.getElementById('shoppingList');
+shoppingList.style.fontSize = '22px';
+shoppingList.style.color = 'red';
+shoppingList.style.listStyle = 'none';
 
 
+//print button
+/*If the script runs before the button is rendered, the event listener will not attach properly. To ensure the DOM is fully loaded before your script runs,
+ you can wrap your code inside a DOMContentLoaded event listener:*/ 
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('printButton').addEventListener('click', function() {
+      window.print();
+    });
+  });
 
 let listArr = []; // setting an empty array to store shopping list
 
@@ -16,6 +27,9 @@ function getItem(event) {
     //because we dont want entire object only data stored inside value property on this object.
      //display error in the dom as well 
      const displayError = document.querySelector('.dispErr');
+     
+
+
      if (displayError) {
         displayError.textContent = '';
      }
