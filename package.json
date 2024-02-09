@@ -1,0 +1,27 @@
+{
+  "name": "shoppinglist",
+  "version": "1.0.0",
+  "description": "challenge1 week 4",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahim-karim-22/shoppingList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrahim-karim-22/shoppingList/issues"
+  },
+  "homepage": "https://github.com/ibrahim-karim-22/shoppingList#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
